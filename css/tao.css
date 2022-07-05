@@ -1,0 +1,56 @@
+body {
+    /*
+    body 样式预设
+    */
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.tao-button {
+    /*
+    自定义按钮样式
+    */
+    margin: 0;
+    padding: 0;
+    border: 1px solid transparent;
+    width: 30px;
+    height: 30px;
+    background-color: #f8f9fa;
+    color: rgba(0,0,0,0.5);
+    border-radius: 50%;
+}
+
+.tao-div-center {
+    /*
+    div 居中
+    */
+    margin: 0 auto;
+}
+
+.tao-picture-frame {
+    /*
+    自定义图片边框
+    */
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 1px solid #dee2e6;
+    border-radius: 2px;
+}
+
+.tao-fade-slide {
+    /*
+    淡入淡出效果支持
+    */
+    opacity: 1;
+    transition: opacity 0.2s;
+}
+
+.tao-fade-slide.fade {
+    /*
+    淡入淡出效果支持
+    */
+    opacity: 0.8;
+}

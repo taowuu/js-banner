@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/tao.css">
+</head>
+<body>
+    <!-- 整个容器 -->
+    <div id="id-div-container" class="tao-div-center">
+        <!-- 整个图片区域 -->
+        <div id="id-div-pictures">
+            <!-- 图片资源 -->
+            <div class="tao-fade-slide">
+                <img id="id-img" class="tao-picture-frame">
+            </div>
+            <!-- 左右切换按钮 -->
+            <button id="id-button-pre" class="tao-button"> < </button>
+            <button id="id-button-next" class="tao-button" > > </button>
+            <!-- 指示器切换按钮 -->
+            <div id="id-div-controller">
+                <div id="id-div-indicator-list">
+                    <div class="div-indicator active" data-index=0></div>
+                    <div class="div-indicator" data-index=1></div>
+                    <div class="div-indicator" data-index=2></div>
+                    <div class="div-indicator" data-index=3></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/tao.js"></script>
+<script src="js/index.js"></script>
+</html>
